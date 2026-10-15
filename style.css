@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3 {
+    color:rgb(25, 66, 38);
+    margin-bottom: 12px;
+
+}
+
+header {
+    background-color: rgb(216, 255, 212);
+    color:rgb(101, 69, 27);
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 16px auto;
+}
+
+header,
+main section {
+    border: 1px solid rgb(200, 220, 202);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.08);
+}
+
+main section {
+    background-color: white;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: rgb(147, 102, 253);
+}
+
+nav a[href="#email"]:hover {
+    color: rgb(127, 82, 232);
+}
+section p{
+    color:rgb(65, 30, 220);
+}
+
+button:hover{
+    color:brown;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 2s ease, background-color 2s ease;
+}
